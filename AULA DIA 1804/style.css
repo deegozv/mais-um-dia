@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+}
+@font-face {
+    font-family: fonte_pizza;
+    src: url(CHEESEPIZZA.ttf);
+}
+
+header{
+    height: 500px;
+    background-image: url(pexels-eneida-nieves-905847\ \(7\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+nav ul{
+    height: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;  
+}
+li{
+    font-family: fonte_pizza;
+    color: antiquewhite;
+    font-size: 35px;
+    list-style-type: none;
+}
+h1{
+    color: #FFEE63;
+    text-align: center;
+    font-family: fonte_pizza;
+    font-size: 55px;
+}
+#sec1{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card{
+    width: 20%;
+    height: 400px;
+    border: solid black 1px
+}
+#img-card{
+    height: 350px;
+}
+
+#img-card2{
+    height: 350px;
+}
+
+#img-card3{
+    height: 350px;
+}
+
+#txt-card{
+    height: 50px;
+    background-color: blue;
+    width: 100%;
+    margin: 0%;
+}
+
+#txt-card2{
+    height: 50px;
+    background-color: blue;
+}
+
+#txt-card3{
+    height: 50px;
+    background-color: blue;
+}
+#sec2{
+    height: 500px;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+}
+#txt-sec{
+    height: 350px;
+    width: 350px;
+    text-align: center;
+    
+    
+
+}
+#img-sec{
+    height: 350px;
+    width: 350px;
+  
+}
+#img-rdd{
+    border-radius: 100%;
+}
+#title-sec2{
+    margin-top: 35px;
+    background-color: cyan;
+    color: brown;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
